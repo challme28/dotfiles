@@ -1,0 +1,13 @@
+[user]
+	email = christian@qempo.com
+	name = Christian Llanos
+
+[alias]
+	aa = add -A
+	ci = commit
+	co = checkout
+	po = push origin HEAD
+	pu = pull origin
+	ca = commit -am
+	st = status
+	graph = log --graph --oneline --decorate --all
