@@ -4,6 +4,7 @@ A list of dotfiles and configs I use with a simple setup for my terminal.
 I use an Ubuntu base system.
 
 My plugins for vim are `vim-airline` and `vim-monokai` and for `zsh`, `git`, `zsh-autosuggestions` and `z`.
+Follow [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) to install it.
 
 I also alias `nvim` with `vim` among some `tmux` shortcuts.
 
