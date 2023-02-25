@@ -70,7 +70,7 @@ DISABLE_UPDATE_PROMPT="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions z)
+plugins=(git zsh-autosuggestions z sudo)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -121,15 +121,27 @@ PROMPT='%{$fg_bold[green]%}%n%{$fg[cyan]%}:%c%{$reset_color%} $(git_prompt_info)
 RPROMPT="[%@ ]"
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg_bold[magenta]%}"
 
-# Android sdk path                                                              
-export ANDROID_HOME=$HOME/Android/Sdk                                           
-export PATH=$PATH:$ANDROID_HOME/emulator                                        
-export PATH=$PATH:$ANDROID_HOME/tools                                           
-export PATH=$PATH:$ANDROID_HOME/tools/bin                                       
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+# Android sdk path
+# export ANDROID_HOME=$HOME/Android/Sdk
+# export PATH=$PATH:$ANDROID_HOME/emulator
+# export PATH=$PATH:$ANDROID_HOME/tools
+# export PATH=$PATH:$ANDROID_HOME/tools/bin
+# export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# OpenJDK path
+# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+# export PATH=$PATH:$JAVA_HOME
+
+# Apache Maven
+# export PATH=$PATH:/opt/apache-maven-3.8.4/bin
 
 # The next line updates PATH for the Google Cloud SDK.
-#if [ -f '/home/ulrich/google-cloud-sdk/path.zsh.inc' ]; then . '/home/ulrich/google-cloud-sdk/path.zsh.inc'; fi
+#if [ -f '/home/mikkel/google-cloud-sdk/path.zsh.inc' ]; then . '/home/mikkel/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-#if [ -f '/home/ulrich/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/ulrich/google-cloud-sdk/completion.zsh.inc'; fi
+#if [ -f '/home/mikkel/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/mikkel/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Node Version Manager
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

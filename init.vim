@@ -24,4 +24,3 @@ Plug 'crusoexia/vim-monokai'
 call plug#end()
 
 colorscheme monokai
-
