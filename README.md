@@ -20,7 +20,7 @@ Install `zsh` along side [`oh-my-zsh`](https://github.com/ohmyzsh/ohmyzsh)
 ```
 sudo apt install zsh
 ```
-Make it your default shell
+Make it your default shell ([How to make ZSH the default shell?](https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell))
 ```
 sudo chsh -s $(which zsh)
 ```
@@ -35,6 +35,7 @@ Install [Neovim](https://github.com/neovim/neovim)
 ```
 sudo apt install neovim
 ```
+You may need to install [Git](https://git-scm.com/downloads) for the next step
 Install the [vim-plug](https://github.com/junegunn/vim-plug) Plugin Manager
 ```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \

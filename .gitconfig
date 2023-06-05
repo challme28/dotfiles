@@ -11,3 +11,5 @@
 	ca = commit -am
 	st = status
 	graph = log --graph --oneline --decorate --all
+[init]
+    defaultBranch = master

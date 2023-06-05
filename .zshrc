@@ -99,7 +99,7 @@ fi
 # neovim aliases
 alias vim="nvim"
 alias vi="nvim"
-alias vact="source venv/bin/activate"
+# alias vact="source venv/bin/activate"
 
 # tmux aliases
 alias tks="tmux kill-session -t"
@@ -136,10 +136,10 @@ ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg_bold[magenta]%}"
 # export PATH=$PATH:/opt/apache-maven-3.8.4/bin
 
 # The next line updates PATH for the Google Cloud SDK.
-#if [ -f '/home/mikkel/google-cloud-sdk/path.zsh.inc' ]; then . '/home/mikkel/google-cloud-sdk/path.zsh.inc'; fi
+# if [ -f '/home/mikkel/google-cloud-sdk/path.zsh.inc' ]; then . '/home/mikkel/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-#if [ -f '/home/mikkel/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/mikkel/google-cloud-sdk/completion.zsh.inc'; fi
+# if [ -f '/home/mikkel/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/mikkel/google-cloud-sdk/completion.zsh.inc'; fi
 
 # Node Version Manager
 # export NVM_DIR="$HOME/.nvm"
